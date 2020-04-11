@@ -1,0 +1,28 @@
+/* Menu*/
+.menu li{
+    display:inline-block ;
+}
+li a, boton{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em;
+}
+.listaDesplegable{
+    display: none;
+    background-color: ghostwhite;
+    position: absolute;
+
+}
+.listaDesplegable a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDesplegable{
+    display: block;
+}
+li a:hover{
+    background-color: red;
+}

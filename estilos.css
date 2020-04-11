@@ -1,0 +1,69 @@
+*{ /* reiniciar algunos estilos del navegador*/
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+nav, header, .contenedor, footer{
+    max-width: 90%;
+    margin: auto;
+    border-radius: 0.4em;
+}
+nav{
+    background-color: brown;
+    text-align: center;
+}
+header{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+  background-color: burlywood;  
+}
+.central{
+    background-color: chocolate;
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+}
+footer{
+    background-color: darkgreen;
+    text-align: center;
+}
+aside{
+    background-color: violet;
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+}
+/* Menu*/
+.menu li{
+    display:inline-block ;
+}
+li a, boton{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em;
+}
+.listaDesplegable{
+    display: none;
+    background-color: ghostwhite;
+    position: absolute;
+
+}
+.listaDesplegable a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDesplegable{
+    display: block;
+}
+li a:hover{
+    background-color: red;
+}

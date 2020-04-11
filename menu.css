@@ -26,3 +26,18 @@ li a, boton{
 li a:hover{
     background-color: red;
 }
+
+
+
+footer {
+	/* background-color: darkgreen;*/
+    text-align: center;
+  position:fixed;
+  bottom: 0;
+  width: 10%;
+  /* Set the fixed height of the footer here */
+  height: 10px;
+  
+  /*background-image: url('UNAD_2.jpg');*/
+  
+}
